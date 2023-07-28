@@ -47,7 +47,6 @@ namespace CatchAreaToImage
                 g.DrawRectangle(pBorder, 0, 0, dstImg.Width - 1, dstImg.Height - 1);
 
 
-          //  dstImg.Save(@"C:\Users\Winch\Desktop\test.png",ImageFormat.Png);
             Clipboard.SetImage(dstImg);
                 // Clean up
                 pBorder.Dispose();
